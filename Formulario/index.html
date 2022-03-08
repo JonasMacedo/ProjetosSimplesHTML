@@ -1,22 +1,85 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Formulario</title>
-</head>
-<body>
-    <head>
+  </head>
+  <body>
+    <head> </head>
 
-    </head>
-    
     <main>
+      <div>
+        <h1>Cadastro de DEVs</h1>
+        <p>Complete suas informações</p>
+      </div>
 
+      <form action="">
+            <fieldset>
+            
+                <div>
+                    <label for="">Nome</label>
+                    <input type="text" nome="nome" id="nome"/>
+                </div>
+                
+                <div>
+                    <label for="">Sobrenome</label>
+                    <input type="text" nome="sobrenome" id="sobrenome"/>
+                </div>
+                
+            </fieldset>
+            
+            <br>
+
+            <div>
+                <label for="">Email</label>
+                <input type="email" nome="email" id="email"/>
+            </div>
+
+            <div>
+            
+                <label>Qual lado da aplicacao você desenvolve?</label>
+            
+                <label>
+                    <input type="radio" name="devweb" value="FrontEnd" checked>FrontEnd
+                </label>
+            
+                <label>
+                    <input type="radio" name="devweb" value="BackEnd">BackEnd
+                </label>
+                
+                <label>
+                    <input type="radio" name="devweb" value="FullStack">FullStack
+                </label>
+                
+            </div>
+
+            <br>
+
+            <div>
+                <label> Defina seu nivel de programador</label>
+                <select name="" id="">
+                    <option selected disabled>Selecione</option>
+                    <option value="">Desenvolvedor - Junior</option>
+                    <option value="">Desenvolvedor - Plenio</option>
+                    <option value="">Desenvolvedor - Senior</option>
+                </select>
+            </div>
+
+            <br>
+
+            <fieldset>
+                <div>
+                    <label>Selecine as Tecnologias que possui familiaridade:</label>
+                    <input type="checkbox" id="" name="" value="">
+                    <label></label>
+                </div>
+            </fieldset>
+
+        </form>
     </main>
 
-    <footer>
-
-    </footer>
-</body>
+    <footer></footer>
+  </body>
 </html>
