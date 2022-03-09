@@ -10,41 +10,37 @@
     <head> </head>
 
     <main>
+
       <div>
-        <h1>Cadastro de DEVs</h1>
-        <p>Complete suas informações</p>
+        <h1 id="titulo">Cadastro de DEVs</h1>
+        <h2 id="subtitulo">Complete suas informações</p>
       </div>
 
-      <form action="">
-        <fieldset>
-          <div>
-            <label for="">Nome</label>
-            <input type="text" nome="nome" id="nome" />
+      <form>
+        <fieldset class="grupo">
+          <div class="campo">
+            <label for="nome"> <strong>Nome</strong></label>
+            <input type="text" nome="nome" id="nome" required />
           </div>
 
-          <div>
-            <label for="">Sobrenome</label>
-            <input type="text" nome="sobrenome" id="sobrenome" />
+          <div class="campo">
+            <label for="sobrenome"><strong> Sobrenome</strong></label>
+            <input type="text" nome="sobrenome" id="sobrenome" required/>
           </div>
         </fieldset>
 
         <br />
 
-        <div>
-          <label for="">Email</label>
-          <input type="email" nome="email" id="email" />
+        <div class="campo">
+          <label for="email"> <strong>Email</strong></label>
+          <input type="email" nome="email" id="email" required/>
         </div>
 
-        <div>
-          <label>Qual lado da aplicacao você desenvolve?</label>
+        <div class="campo">
+          <label>Qual o lado da aplicacao você desenvolve?</label>
 
           <label>
-            <input
-              type="radio"
-              name="devweb"
-              value="FrontEnd"
-              checked
-            />FrontEnd
+            <input type="radio" name="devweb" value="FrontEnd" checked/>FrontEnd
           </label>
 
           <label>
@@ -54,12 +50,13 @@
           <label>
             <input type="radio" name="devweb" value="FullStack" />FullStack
           </label>
+
         </div>
 
-        <br />
+        <br/>
 
-        <div>
-          <label> Defina seu nivel de programador</label>
+        <div class="campo">
+          <label for="senioridade"> Defina seu nivel de programador</label>
           <select name="" id="senioridade">
             <option selected disabled>Selecione</option>
             <option value="">Desenvolvedor - Junior</option>
@@ -70,8 +67,8 @@
 
         <br />
 
-        <fieldset>
-          <div>
+        <fieldset class="grupo">
+          <div class="campo">
             <label>Selecine as Tecnologias que possui familiaridade:</label>
             <br />
 
@@ -98,13 +95,13 @@
           </div>
         </fieldset>
 
-        <div>
-          <br />
+        <div class="campo">
+          <br/>
           <label>Conte um pouco de sua experiência </label>
           <textarea row="6" style="width: 26em" id="experiencia"> </textarea>
         </div>
 
-        <button type="submit">Concluido</button>
+        <button class="botao" type="submit">Concluido</button>
 
       </form>
     </main>
