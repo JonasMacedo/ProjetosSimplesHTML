@@ -16,68 +16,97 @@
       </div>
 
       <form action="">
-            <fieldset>
-            
-                <div>
-                    <label for="">Nome</label>
-                    <input type="text" nome="nome" id="nome"/>
-                </div>
-                
-                <div>
-                    <label for="">Sobrenome</label>
-                    <input type="text" nome="sobrenome" id="sobrenome"/>
-                </div>
-                
-            </fieldset>
-            
-            <br>
+        <fieldset>
+          <div>
+            <label for="">Nome</label>
+            <input type="text" nome="nome" id="nome" />
+          </div>
 
-            <div>
-                <label for="">Email</label>
-                <input type="email" nome="email" id="email"/>
-            </div>
+          <div>
+            <label for="">Sobrenome</label>
+            <input type="text" nome="sobrenome" id="sobrenome" />
+          </div>
+        </fieldset>
 
-            <div>
-            
-                <label>Qual lado da aplicacao você desenvolve?</label>
-            
-                <label>
-                    <input type="radio" name="devweb" value="FrontEnd" checked>FrontEnd
-                </label>
-            
-                <label>
-                    <input type="radio" name="devweb" value="BackEnd">BackEnd
-                </label>
-                
-                <label>
-                    <input type="radio" name="devweb" value="FullStack">FullStack
-                </label>
-                
-            </div>
+        <br />
 
-            <br>
+        <div>
+          <label for="">Email</label>
+          <input type="email" nome="email" id="email" />
+        </div>
 
-            <div>
-                <label> Defina seu nivel de programador</label>
-                <select name="" id="">
-                    <option selected disabled>Selecione</option>
-                    <option value="">Desenvolvedor - Junior</option>
-                    <option value="">Desenvolvedor - Plenio</option>
-                    <option value="">Desenvolvedor - Senior</option>
-                </select>
-            </div>
+        <div>
+          <label>Qual lado da aplicacao você desenvolve?</label>
 
-            <br>
+          <label>
+            <input
+              type="radio"
+              name="devweb"
+              value="FrontEnd"
+              checked
+            />FrontEnd
+          </label>
 
-            <fieldset>
-                <div>
-                    <label>Selecine as Tecnologias que possui familiaridade:</label>
-                    <input type="checkbox" id="" name="" value="">
-                    <label></label>
-                </div>
-            </fieldset>
+          <label>
+            <input type="radio" name="devweb" value="BackEnd" />BackEnd
+          </label>
 
-        </form>
+          <label>
+            <input type="radio" name="devweb" value="FullStack" />FullStack
+          </label>
+        </div>
+
+        <br />
+
+        <div>
+          <label> Defina seu nivel de programador</label>
+          <select name="" id="senioridade">
+            <option selected disabled>Selecione</option>
+            <option value="">Desenvolvedor - Junior</option>
+            <option value="">Desenvolvedor - Plenio</option>
+            <option value="">Desenvolvedor - Senior</option>
+          </select>
+        </div>
+
+        <br />
+
+        <fieldset>
+          <div>
+            <label>Selecine as Tecnologias que possui familiaridade:</label>
+            <br />
+
+            <input type="checkbox" id="tec01" name="tec01" value="HTML" />
+            <label for="tec01">HTML</label>
+
+            <input type="checkbox" id="tec02" name="tec02" value="CSS" />
+            <label for="tec02">CSS</label>
+
+            <input type="checkbox" name="tec03" id="tec03" value="JavaScript" />
+            <label for="tec03">JavaScript</label>
+
+            <input type="checkbox" name="tec04" id="tec04" value="PHP" />
+            <label for="tec04">PHP</label>
+
+            <input type="checkbox" name="tec05" id="tec05" value="C#" />
+            <label for="tec05">C#</label>
+
+            <input type="checkbox" name="tec06" id="tec06" value="Python" />
+            <labe>Python</labe>
+
+            <input type="checkbox" name="tec07" id="tecc07" value="Java" />
+            <labe>Java</labe>
+          </div>
+        </fieldset>
+
+        <div>
+          <br />
+          <label>Conte um pouco de sua experiência </label>
+          <textarea row="6" style="width: 26em" id="experiencia"> </textarea>
+        </div>
+
+        <button type="submit">Concluido</button>
+
+      </form>
     </main>
 
     <footer></footer>
