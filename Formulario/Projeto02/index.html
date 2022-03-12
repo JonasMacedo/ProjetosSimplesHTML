@@ -31,19 +31,27 @@
                 <!-- substituir por uma pseudo tag -->
             </div>
 
-            <form action="">
-                <label for="">
-                    <span>Nome:</span>
-                    <input type="text" name="" id="">
-                </label>
-                <label for="">
-                    <span>Email:</span>
-                    <input type="text" name="" id="">
-                </label>
-                <label for="">
-                    <span>Senha</span>
-                    <input type="text" name="" id="">
-                </label>
+            <form>
+                <div class="formulario_campo">
+                    <label for="">
+                        <span>Nome:</span>
+                        <input type="text" name="nome" id="nome" required>
+                    </label>
+                </div>
+
+                <div class="formulario_campo">
+                    <label for="">
+                        <span>Email:</span>
+                        <input type="email" name="email" id="email" required>
+                    </label>
+                </div>
+
+                <div class="formulario_campo">
+                    <label for="">
+                        <span>Senha</span>
+                        <input type="password" name="senha" id="senha" required>
+                    </label>
+                </div>
 
             </form>
 
