@@ -40,20 +40,26 @@ main h1{
 }
 
 main .campo{
+    display: flex;
+    align-content: center;
     margin-top: 5px;
     margin-bottom: 25px;
-    align-content: center;
     padding-left: 25px;
 }
 
 main .campo img{
-    width: 2.25rem;
-    height: 1.81rem;
+    width: 2.05rem;
+    height: 1.71rem;
+    margin-left: 3.58rem;
 }
 
 main .campo a {
-    padding-left: 3.58rem;
     text-decoration: none;
+}
+
+main .campo a:first-child img{
+    /* pegando o primeiro elemento filho */
+    margin-left: 0;
 }
 
 main form {
@@ -103,5 +109,6 @@ main form input{
 .secao{
     position: absolute;
     /* top: 5%; */
-    transform: translate(95%, 5%);
+    /* transform: translate(46.87rem, .19rem); */
+    transform: translate(65.625rem, .19rem);
 }
