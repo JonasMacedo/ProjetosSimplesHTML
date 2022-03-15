@@ -33,10 +33,11 @@ main{
 
 main h1{
     margin-top: 0.31rem;
-    color: #8880fe;
-    font-size: 3rem;
     margin-bottom: 3rem;
     text-align: center;
+    
+    color: #8880fe;
+    font-size: 3rem;
 }
 
 main .campo{
@@ -77,11 +78,11 @@ main form label {
 
 main form input{
     margin-top: 0.8rem;
-    border-radius: 8px;
-    border: 1px solid #040b18;
-
     width: 300px;
     height: 35px;
+    
+    border-radius: 8px;
+    border: 1px solid #040b18;
     
     background: #161923;
     color: #8880fe;
@@ -107,8 +108,11 @@ main form input{
 }
 
 .secao{
-    position: absolute;
-    /* top: 5%; */
-    /* transform: translate(46.87rem, .19rem); */
-    transform: translate(65.625rem, .19rem);
+    display: flex;
+    align-items: flex-end;
+    padding: 4rem;
+}
+
+.secao img{
+    width: 90%;
 }
