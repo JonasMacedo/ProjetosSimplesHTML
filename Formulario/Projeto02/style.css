@@ -89,6 +89,30 @@ main form input{
     padding: 0 0.9rem;
 }
 
+main .alternativa{
+    margin-top: 1rem;
+}
+
+main .alternativa span{    
+    position: relative;
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+main .alternativa span::before, main .alternativa span::after{
+    position: absolute;
+    content: '';
+    height: 1px;
+    width: 100px;
+    bottom: 50%;
+    right: 50px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.alternativa span::after{
+    left: 50px;
+}
+
 .botao{
     cursor: pointer;
     background: #6c63ff;    
@@ -110,9 +134,23 @@ main form input{
 .secao{
     display: flex;
     align-items: flex-end;
-    padding: 4rem;
+    /* padding: 4rem; */
+    padding: 2.5rem;
 }
 
 .secao img{
     width: 90%;
+}
+
+.secao .circulo{
+    /* estilinado o circulo com clip-path */
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(45deg,#e8cbc0, #1435c5);
+    clip-path: circle(40% at right 70%);
+    z-index: -1;
 }
