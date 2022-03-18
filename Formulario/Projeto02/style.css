@@ -32,7 +32,7 @@ main{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 2rem 4rem;
+    /* padding: 2rem 4rem; */
     
 }
 
@@ -164,7 +164,47 @@ main .alternativa span::before, main .alternativa span::after{
     z-index: -1;
 }
 
-/* responsividade */
+/* Responsividade */
 
+@media only screen and (min-width:900px) and (max-width: 1200px){
+    /* codigo responsavel pela verificacao de tamanho da tela */
+    /* Se a definicao da tela estiver dentro da definida sera aplicado o CSS definido */
+    
+    .secao img{
+        width: 100%; 
+    } 
+    
+    .secao .circulo{
+        clip-path: circle(40% at right 70%);
+    }
+    
+}
 
+@media only screen and (min-width:100px) and (max-width:900px){
+    
+    .secao img{
+        display: none;
+        visibility: hidden;
+    }
+
+    /* .circulo{
+        display: none;
+        visibility: hidden;
+    } */
+    
+    main {
+        width: 100vw;
+        padding: 1rem 2rem;
+    }
+
+    main h1{
+        font-size: 2rem;
+        /* color: rgb(177, 169, 169); */
+        color: #6a5acd;
+    }
+
+    main form label span{
+        color: #191970;
+    }
+}
 
