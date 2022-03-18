@@ -20,6 +20,9 @@ body{
     color: whitesmoke;
     font-weight: 500;
     display: flex;
+    
+    /* Reponsividade */
+    min-width: 100vw;
     min-height: 100vh;
 }
 
@@ -29,8 +32,11 @@ main{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 2rem 4rem;
+    
 }
 
+/* ======================== Estilizacao Layout ======================== */
 main h1{
     margin-top: 0.31rem;
     margin-bottom: 3rem;
@@ -134,8 +140,11 @@ main .alternativa span::before, main .alternativa span::after{
 .secao{
     display: flex;
     align-items: flex-end;
-    /* padding: 4rem; */
     padding: 2.5rem;
+    
+    width: 50vw;
+    justify-content: flex-end;
+
 }
 
 .secao img{
@@ -151,6 +160,11 @@ main .alternativa span::before, main .alternativa span::after{
     height: 100%;
     width: 100%;
     background: linear-gradient(45deg,#e8cbc0, #1435c5);
-    clip-path: circle(40% at right 70%);
+    clip-path: circle(75% at right 70%);
     z-index: -1;
 }
+
+/* responsividade */
+
+
+
