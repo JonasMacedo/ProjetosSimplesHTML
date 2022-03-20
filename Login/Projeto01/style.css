@@ -21,11 +21,43 @@ main{
     height: 100vh;
     
     display: flex;
-    justify-content: center;
-    align-items: center;
-
-    
+    justify-content: center;/* alinha os itens no eixo X ou seja no seu comprimento*/
+    align-items: center;/* alinha os itens no eixo y ou seja na sua altura*/
     background-color: #201b2c; 
 }
 
 
+.img{
+    width: 50vw;
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.img h1{
+    color: #77ffc0;
+}
+
+.login{
+    width: 50vw;
+    height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+}
+
+
+.info{
+    width: 60%;/* usando porcentagem ira pegar o espaco definido para o elmento pai e usara apenas a porcentagem informada */
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
