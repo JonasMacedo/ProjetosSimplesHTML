@@ -66,3 +66,9 @@ main{
     border-radius: 20px;
     box-sizing: 0px 10px 40px #00000056;
 }
+
+.info h1{   
+    color: #00ff88;
+    font-weight: 800;
+    margin: 0;
+}
