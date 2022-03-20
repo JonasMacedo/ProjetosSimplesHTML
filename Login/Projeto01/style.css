@@ -60,4 +60,9 @@ main{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
+    padding: 1.87rem 2.18rem;
+    background: #2f2841;
+    border-radius: 20px;
+    box-sizing: 0px 10px 40px #00000056;
 }
