@@ -11,9 +11,21 @@
 /* ======================== Base ======================== */
 
  body{
-    
-     background-color: #1b2029; 
     font-family: sans-serif;
     font-size: 1em;
-    
 }
+
+main{
+    
+    width: 100vw;
+    height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    background-color: #201b2c; 
+}
+
+
