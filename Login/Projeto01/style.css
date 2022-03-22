@@ -1,6 +1,8 @@
 
 /* ======================== Reset ======================== */
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
 * {
     margin: 0;
     padding: 0; 
@@ -10,7 +12,7 @@
 
 /* ======================== Base ======================== */
 
- body{
+body{
     font-family: sans-serif;
     font-size: 1em;
 }
@@ -26,6 +28,7 @@ main{
     background-color: #201b2c; 
 }
 
+/* ======================== Layout da Imagem ======================== */
 
 .img{
     width: 50vw;
@@ -39,10 +42,15 @@ main{
 
 
 .img h1{
+    font-family: 'Poppins', sans-serif;
+    padding: 0px 15px;
     color: #77ffc0;
 }
 
+/* ======================== Layout do Formulario ======================== */
+
 .login{
+    font-family: 'Poppins', sans-serif;
     width: 50vw;
     height: 100vh;
     
@@ -60,7 +68,7 @@ main{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
+    
     padding: 1.87rem 2.18rem;
     background: #2f2841;
     border-radius: 20px;
@@ -98,13 +106,13 @@ main{
     font-size: 12pt;
     box-shadow: 0px 10px 40px #00000056;
     outline: none;
-    
 }
+
 .info input::placeholder {
     color: #f0ffff94;
 }
 
-.btn_login{
+.info .btn_login{
     width: 100%; 
     padding: 12px;
     
@@ -113,10 +121,12 @@ main{
     border-radius: 8px;
     
     background: #00ff88;
-    color: #22134b;
+    color: #21114d;
     text-transform: uppercase;
     font-weight: 800;
     letter-spacing: 3px;/* espacamento entre as letras */
     cursor: pointer;
     box-shadow: 0px 10px 40px -12px #00ff8052;
 }
+
+
