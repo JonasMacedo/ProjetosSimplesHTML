@@ -30,7 +30,7 @@ main{
 
 /* ======================== Layout da Imagem ======================== */
 
-.img{
+.img {
     width: 50vw;
     height: 100vh;
     
@@ -42,8 +42,13 @@ main{
 
 
 .img h1{
+    font-size: 2vw;
     padding: 0px 15px;
     color: #77ffc0;
+}
+
+.img img{
+    width: 35vw;
 }
 
 /* ======================== Layout do Formulario ======================== */
