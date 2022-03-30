@@ -7,27 +7,73 @@ body{
 .secao{
     height: 100vh; 
     display: flex;
-
+    
     align-items: center;
     justify-content: center;
 }
 
+.login img{
+    height: 250px;
+    margin-bottom: 10px;
+}
+
 .login{
+    display: flex;
+    flex-direction: column; 
+    
     background-color: #181920;
     border-radius: 8px;
 
     width: 22.18rem;
-    height: 20rem;
+    height: 26.87rem;
 
     padding: 35px;
 }
 
 .form_login{
+    
     display: flex;
     flex-direction: column;
-    gap: 10px;
+
+    width: 100%;
+    
+    gap: 12px;
 }
 
-.btn_logar{
-    border-radius: 8px;
+.form_login input, button{
+    
+    background-color: #252a34;
+    color: #cbd0f7;
+    border: none;
+    border-radius: 7px;
+    height: 45px;
+    outline: none;
+    
+}
+
+input::placeholder{
+    color: #cbd0f7;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.form_login button{
+    display: block;
+    background-color: #5568fe;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+p{
+    margin: 0.62rem 5.31rem;
+    font-size: 11px;
+    justify-content: center;
+    color:#cbd0f7;
+}
+
+a{
+    margin-left: 2px;
+    color:#5568fe;
+    text-decoration: none;
 }
