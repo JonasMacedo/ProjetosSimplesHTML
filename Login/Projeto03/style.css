@@ -1,4 +1,6 @@
 
+/* ======================== Reset ======================== */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
 
 *{
@@ -8,10 +10,36 @@
     font-family: 'Poppins', sans-serif;
 }
 
+/* ======================== Base ======================== */
+
 body{
+    
     background: linear-gradient(45deg, #8e2de2, #4a00e0);
     background-repeat: no-repeat;
+    
     min-height: 100vh;
+    min-width: 100vw;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ======================== Layout Formulario ======================== */
+.container_main{
+    
+}
+
+/* ======================== Layout Imagens ======================== */
+
+.facebook img{
+    width: 2vw;
+    height: 2vh;
+}
+
+.twitter img{
+    width: 2vw;
+    height: 2vh;
 }
 
 
