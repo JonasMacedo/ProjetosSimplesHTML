@@ -6,7 +6,7 @@
 *{
     margin: 0;    
     border: 0;
-    box-sizing: 0;
+    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -27,7 +27,15 @@ body{
 
 /* ======================== Layout Formulario ======================== */
 .container_main{
+
+    background: white;
     
+    max-width: 350px;
+    min-height: 40vh;
+    
+    padding: 2rem;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
 }
 
 /* ======================== Layout Imagens ======================== */
