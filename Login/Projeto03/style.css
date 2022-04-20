@@ -27,7 +27,7 @@ body{
 
 /* ======================== Layout Formulario ======================== */
 .container_main{
-
+    
     background: white;
     
     max-width: 350px;
@@ -36,6 +36,23 @@ body{
     padding: 2rem;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
     border-radius: 8px;
+}
+
+main h1{
+    font-weight: 600;
+    margin-bottom: 2rem;
+    position: relative; /*Para poder usar a pseudo classe */
+}
+
+main h1::before{
+    content: '';
+    position: absolute;
+    height: 4px;
+    width: 32px;
+    bottom: 3px;
+    left: 0;
+    border-radius: 8px;
+    background: linear-gradient(45deg, #8e2de2, #4a00e0);
 }
 
 /* ======================== Layout Imagens ======================== */
