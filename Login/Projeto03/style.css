@@ -55,6 +55,56 @@ main h1::before{
     background: linear-gradient(45deg, #8e2de2, #4a00e0);
 }
 
+/* ======================== Layout Inputs ======================== */
+
+.container_input{
+    position: relative;
+}
+
+.container_input input{
+    outline: none;
+    font-size: 0.9rem;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.container_input input::placeholder{
+    padding-left: 5px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+form .container_input:first-child{
+    margin-bottom: 1.5rem;
+}
+
+.container_input .underline::before{
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    bottom: -5px;
+    left: 0;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.container_input .underline::after{
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    bottom: -5px;
+    left: 0;
+
+    transform: scaleX(0);
+    transform-origin: left;
+    background: linear-gradient(45deg, #8e2de2, #4a00e0);
+    transition: all .3s ease-in-out;
+
+}
+.container_input input:focus ~ .underline::after{
+    transform: scaleX(1);
+}
+
+
 /* ======================== Layout Imagens ======================== */
 
 .facebook img{
