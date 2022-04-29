@@ -120,11 +120,12 @@ form .container_input:first-child{
 form input[type="submit"] {
     
     margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 0.8rem;
     padding: 0.4rem;
     
     border-radius: 4px;
     cursor: pointer;
+    color: white;
     
     background: linear-gradient(to left, #4776e6,#8e54e9);
     font-weight: 300;
@@ -136,17 +137,35 @@ form input[type="submit"]:hover {
     background: linear-gradient(to right, #4776e6,#8e54e9);
 }
 
-
 /* ======================== Layout Imagens ======================== */
 
-.facebook img{
-    width: 2vw;
-    height: 2vh;
+.midias_sociais a{
+    
+    display: flex;
+    
+    border-radius: 0.4rem;
+    padding: 0.4rem;
+    margin-bottom: 5px;
+
+    text-decoration: none;
+    font-size: 0.85rem;
+    cursor: pointer;
+    color: white;
+    
+    background: linear-gradient(to right, #4776e6,#8e54e9);
 }
 
-.twitter img{
-    width: 2vw;
-    height: 2vh;
+.midias_sociais img{
+    
+    width: 2rem;
+    height: 1.8rem;
+    
+    margin-top: 1rem;
+}
+
+.footer span{
+    font-size: 0.8rem;
+    text-align: center;
 }
 
 
