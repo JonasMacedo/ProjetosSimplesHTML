@@ -45,6 +45,9 @@ main h1{
 }
 
 main h1::before{
+    
+    /* pseudo classe responsavel pelo efeito colorido da linha */
+
     content: '';
     position: absolute;
     height: 4px;
@@ -58,7 +61,7 @@ main h1::before{
 /* ======================== Layout Inputs ======================== */
 
 .container_input{
-    position: relative;
+    position: relative; /*Para poder usar a pseudo classe */
 }
 
 .container_input input{
@@ -87,6 +90,9 @@ form .container_input:first-child{
 }
 
 .container_input .underline::after{
+    
+    /* pseudo classe responsavel pelo efeito colorido da linha */
+    
     content: '';
     position: absolute;
     height: 1px;
