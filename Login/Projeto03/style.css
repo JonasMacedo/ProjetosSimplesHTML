@@ -26,6 +26,7 @@ body{
 }
 
 /* ======================== Layout Formulario ======================== */
+
 .container_main{
     
     background: white;
@@ -36,6 +37,11 @@ body{
     padding: 2rem;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
     border-radius: 8px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
 }
 
 main h1{
@@ -106,8 +112,28 @@ form .container_input:first-child{
     transition: all .3s ease-in-out;
 
 }
-.container_input input:focus ~ .underline::after{
+
+.container_input input:focus ~ .underline::after {
     transform: scaleX(1);
+}
+
+form input[type="submit"] {
+    
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 0.4rem;
+    
+    border-radius: 4px;
+    cursor: pointer;
+    
+    background: linear-gradient(to left, #4776e6,#8e54e9);
+    font-weight: 300;
+    transition: all 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    letter-spacing: 0.5px;
+    background: linear-gradient(to right, #4776e6,#8e54e9);
 }
 
 
