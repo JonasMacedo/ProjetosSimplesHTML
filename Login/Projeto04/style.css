@@ -18,12 +18,13 @@ img{
 
 .content{
     
-    width: 500px;
-    height: 500px;
+    width: 520px;
+    height: 935px;
     border-radius: 20px;
     
+    overflow: hidden; /* Oculta os elementos que ultrapasarem o elemento */
+    
     /* 
-    overflow: hidden;
     position: absolute;
     top: 50%;
     left: 50%;
