@@ -8,13 +8,6 @@ body{
     
 }
 
-input{
-    display: none;
-}
-
-img{
-    max-width: 100%;
-}
 
 .content{
     
@@ -36,6 +29,14 @@ img{
     display: flex;
     width: 500%;
     height: 100%;
+}
+
+img{
+    max-width: 100%;
+} 
+
+input{
+    display: none;
 }
 
 
