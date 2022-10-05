@@ -1,0 +1,65 @@
+
+/* ======================== Reset do CSS da pagina  ======================== */
+
+body {
+    display: grid;
+    margin: 0; 
+    padding: 0;
+    border: 0;
+    font-family: sans-serif;
+}
+
+/* ======================== Base do CSS  ======================== */
+
+.conteudo{
+
+    margin: 40px;
+    
+    
+    width: 890px;
+    border-radius: 4px 4px 0px 0px;
+    
+    background: rgb(161, 153, 153);
+    color: rgb(106, 106, 177);
+    
+    font-size: 12px;
+}
+
+h3{
+    padding: 15px;
+}
+
+.menu{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    border-style: solid;
+    margin-top: 15px;
+    padding: 15px;
+
+}
+
+.informacao{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    column-count: 2;
+    border-style: solid;
+    padding: 4px;
+}
+
+.selecao{
+    column-count: 2;
+    column-gap: 5px;
+}
+
+.selecObjeto{
+    margin: 15px;
+}
+
+.footer{
+    margin-top: 4px;
+    border-style: solid;
+    padding: 4px;
+}
