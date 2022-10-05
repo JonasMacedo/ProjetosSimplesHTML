@@ -1,0 +1,134 @@
+body{
+    
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width:  100vw;
+    background: linear-gradient(72deg, #3debb0 21%, #8956f3 99%);
+    
+}
+
+.content{
+    
+    display: flex;
+    /* height: 32.5rem; */
+    /* width: 58.44rem; */
+    
+    height: 803px; 
+    width: 570px;
+
+    overflow: hidden; /* Oculta os elementos que ultrapasarem o elemento */
+    
+    position: absolute;
+    margin-top: 1.25rem;
+    margin-left: 28%;
+    border-radius: 20px;
+    
+}
+
+.slides {
+    width: 100%;
+    height: 90px; 
+    
+}
+
+.slides img{
+    max-height: 100%;
+    max-width:  100%; 
+} 
+
+.slides input{
+    display: none;
+}
+
+
+
+
+
+/* 
+.content{
+
+    height: 32.5rem;
+    width: 58.44rem;
+    
+    height: 520px;
+    width: 935px;
+    border-radius: 20px;
+    
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.navegation{
+    
+    position: absolute;
+    bottom: 1.25rem;
+    left: 50%;
+    
+    transform: translate(-50%);
+    display: flex;
+
+}
+
+.barra{
+    
+    margin: 0.38rem;
+    border: 2px solid darkgray;
+    border-radius: 5px;
+    cursor: pointer;
+
+    width: 4.38rem;
+    height: 1.06rem;
+
+    transition: .4s;
+}
+
+.barra:hover{
+    background: darkred;
+}
+
+input{
+    display: none;
+}
+
+.slides{
+    display: flex;
+    width: 500%;
+    height: 100%;
+}
+
+.slid{
+    width: 100%;
+    transition: .6s;
+} 
+
+.slid img{
+    max-width: 100%;
+    height: 200%;
+}
+
+#sld01:checked ~ .s1{
+    margin-left: 0;
+} 
+
+ #sld02:checked ~ .s1{
+    margin-left: -24.20%;
+}
+
+#sld03:checked ~ .s1{
+    margin-left: -44.20%;
+}    
+
+#sld04:checked ~ .s1{
+    margin-left: -64.20%;
+}
+#sld05:checked ~ .s1{
+    margin-left: -84.20%;
+}
+#sld06:checked ~ .s1{
+    margin-left: -104.20%;
+}  */
