@@ -32,11 +32,11 @@ h3{
 .menu{
     
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 600px 1fr;
+    width: 850px;
 
     border-style: solid;
-    margin-top: 15px;
-    padding: 15px;
+    padding: 7px;
     margin: 5px;
 
 }
@@ -44,24 +44,35 @@ h3{
 .informacao{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 4px;
-    column-count: 2;
-    border-style: solid;
-    padding: 4px;
+
+    /* border-style: solid; */
+    /* padding: 4px;  */
+}
+
+#obj{
+    width: 55px;
 }
 
 .selecao{
     display: grid;
-    grid-template-columns: 100px 100px;
+    grid-template-columns: 120px 100px;
     gap: 5px;
-    padding: 10px;
-
-    align-items: start;
+    
 }
 
 .slc_financeiro{
-    
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
+
+.slc_estatus{
+    display: flex;
+    flex-direction: column; 
+}
+
 
 .selecObjeto{
     margin: 15px;

@@ -16,59 +16,67 @@
         <div class="menu">
 
             <div class="informacao">
-                <label>Objeto <br> <input type="text"> </label>
-                <label>Descrição <br> <input type="text"> </label>
-                <label>Numero <br> <input type="text"> </label>
-                <label>Data inicial <br> <input type="text"> </label>
-                <label>Data final <br> <input type="text"> </label>
-                <label>Cliente <br> <input type="text"> </label>
-                <label>Nome do Cliente <br> <input type="text"> </label>
-
-                <!-- <div class="selecao">
-                    <ul>
-                        <input type="radio">Todos
-                        <input type="radio">Com Financeiro
-                        <input type="radio">Sem Financeiro
-                    </ul>
-
-                    <ul>
-                        <ul>Todos</ul>
-                        <ul>Com Financeiro</ul>
-                        <ul>Sem Financeiro</ul>
-                    </ul>
-                </div> -->
-
+                <input id="obj" type="text" placeholder="Objeto">
+                <input id="desc" type="text" placeholder="Descricao">
+                <input id="num" type="text" placeholder="Numero O.S">
+                <input id="cli" type="text" placeholder="Cliente">
+                <input id="ncl" type="text" placeholder="Nome do Cliente">
+                <input id="di" type="date" placeholder="Data inicial">
+                <input id="df" type="date" placeholder="Data final">
             </div>
 
             <div class="selecao">
+
                 <div class="slc_financeiro">
+
+                    <label>
+                        <input type="radio">
+                        Todos
+                    </label>
+
+                    <label>
+                        <input type="radio">
+                        Com Financeiro
+                    </label>
+
+                    <label>
+                        <input type="radio">
+                        Sem Financeiro
+                    </label>
                     
-                    <input type="radio">
-                    <label>Todos</label>
-                    
-                    <input type="radio">
-                    <label>Com Financeiro</label>
-                    
-                    <input type="radio">
-                    <label>Sem Financeiro</label>
                 </div>
 
                 <div class="slc_estatus">
-                    <input type="checkbox" name="execusao" id="todos">
-                    <label>Em execusão</label>
-                    <input type="checkbox" name="concluida" id="financeiro">
-                    <label>Concluídas</label>
-                    <input type="checkbox" name="bloqueada" id="sfinanceiro">
-                    <label>Bloqueadas</label>
-                    <input type="checkbox" name="registrada" id="financeiro">
-                    <label>Registradas</label>
+
+                    <label>
+                        <input type="checkbox" name="execusao" id="todos">
+                        Em execusão
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="concluida" id="financeiro">
+                        Concluídas
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="bloqueada" id="sfinanceiro">
+                        Bloqueadas
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="registrada" id="financeiro">
+                        Registradas
+                    </label>
+
                 </div>
+
             </div>
 
 
         </div>
         <div class="selecObjeto">
             <span>Objeto</span>
+            <br>
             <span>Precione <F2> para localizar o objeto</span>
         </div>
         <div class="footer">
