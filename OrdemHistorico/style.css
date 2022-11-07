@@ -2,7 +2,7 @@
 /* ======================== Reset do CSS da pagina  ======================== */
 
 body {
-    display: grid;
+    /* display: grid; */
     margin: 0; 
     padding: 0;
     border: 0;
@@ -14,8 +14,7 @@ body {
 .conteudo{
 
     margin: 40px;
-    
-    
+
     width: 890px;
     border-radius: 4px 4px 0px 0px;
     
@@ -32,8 +31,8 @@ h3{
 .menu{
     
     display: grid;
-    grid-template-columns: 600px 1fr;
-    width: 850px;
+    grid-template-columns: 400px 120px 100px;
+    width: 790px;
 
     border-style: solid;
     padding: 7px;
@@ -42,17 +41,40 @@ h3{
 }
 
 .informacao{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 4px;
+    display: grid;
+    grid-template-columns: 90px auto; 
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    /* gap: 2px; */
+}
 
-    /* border-style: solid; */
-    /* padding: 4px;  */
+.informacao input{
+    height: 25px;
+}
+
+.data input{
+    height: 27px;
 }
 
 #obj{
-    width: 55px;
+    width: 85px;
+}
+
+#num{
+    width: 85px;
+}
+
+#cli{
+    width: 85px;
+}
+
+#ncl{
+    width: 300px;
+}
+ 
+#desc{
+    width: 204px;
 }
 
 .selecao{
@@ -65,7 +87,7 @@ h3{
 .slc_financeiro{
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 2px;
 }
 
 .slc_estatus{
@@ -79,6 +101,7 @@ h3{
 }
 
 .footer{
+    width: 800px;
     margin-top: 4px;
     border-style: solid;
     padding: 4px;
